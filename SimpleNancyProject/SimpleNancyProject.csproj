@@ -81,6 +81,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Views\index.html" />
+    <Content Include="Views\layout.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

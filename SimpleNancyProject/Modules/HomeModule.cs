@@ -6,7 +6,7 @@ namespace SimpleNancyProject.Modules
     {
         public HomeModule()
         {
-            Get("/", args => "Hello from Nancy");
+            Get("/", args => View["Index"]);
         }
     }
 }
